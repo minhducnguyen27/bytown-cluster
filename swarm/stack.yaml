@@ -1,0 +1,7 @@
+services:
+  web:
+    image: bytown-web:1.0
+    ports:
+      - "8512:80"
+    deploy:
+      replicas: 2

@@ -1,0 +1,3 @@
+Q1: The Orchestrator compare the actual state to desired state, and fix it if the actual state not the same as desired state.
+Q2: Docker Swarm is good for small setups. K3s is good for small servers, edge devices, labs and tests.
+Q3: The service never goes down because Kubernetes replaces the pods gradually. It starts a new pod, waits until it is ready, then stops an old one. 
